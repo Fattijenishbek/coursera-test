@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <meta charse="utf-8">
+    <title> Pseudo-Class Selectors</title>
+  </head>
+  <style>
+    header li{
+  list-style: none;/*to remove list icons*/
+}
+a:link, a:visited{
+  text-decoration:none;/*to remove underline*/
+  color:black;/*text color*/
+  background-color:aquamarine/*lightpink*/;
+  border: 1px solid grey; /*border color and size in px*/
+  display:block;/*to change into block-level element*/
+  width:200px; /*width of block*/
+  text-align:center; 
+  margin-bottom: 1px;/*size of space between lines*/
+}
+
+a:hover, a:active{
+  background-color: lightpink;
+}
+header li:nth-child(3){
+  font-size:20px;
+}
+
+/*section div{
+  text-align:center;
+  width:300px;
+}*/
+section div:nth-child(odd){
+  background-color: grey;
+}
+section div:nth-child(even):hover{
+  background-color:lightpink;
+  cursor: pointer;
+}
+</style>
+  <body>
+    <h1>Pseudo-Class Selectors</h1>
+    <header>
+      <ul>
+        <li><a href="https://www.instagram.com/fattijenishbek/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.facebook.com/fatima.jenishbek/" target="_blank">Facebook</a></li>
+        <li><a href="https://www.linkedin.com/in/fatima-bekmamatova-183a50197/" target="_blank">LinkedIn</a></li>
+      </ul>
+    </header>
+    
+    <section>
+      <div>DIV 1</div>
+      <div>DIV 2</div>
+      <div>DIV 3</div>
+      <div>DIV 4</div>
+      <div>DIV 5</div>
+      <div>DIV 6</div>
+      <div>DIV 7</div>
+      <div>DIV 8</div>
+      <div>DIV 9</div>
+      <div>DIV 10</div>
+      <div>DIV 11</div>
+      <div>DIV 12</div>
+      <div>DIV 13</div>
+      <div>DIV 14</div>
+      <div>DIV 15</div>
+      <div>DIV 16</div>
+      <div>DIV 17</div>
+      <div>DIV 18</div>
+      <div>DIV 19</div>
+      <div>DIV 20</div>
+    </section>
+  </body>
+</html>
